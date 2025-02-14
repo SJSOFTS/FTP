@@ -11,7 +11,7 @@
       "id": "AstraLand-1.21.4",
       "name": "AstraLand (Minecraft 1.21.4)",
       "description": "AstraLand Running Minecraft 1.21.4 (Fabric v0.16.10)",
-      "icon": null,
+      "icon": "https://sjsofts.github.io/FTP/ASTRA_LAND/ASTRA_LAND.png",
       "version": "1.0.0",
       "address": "astra.sejinjin.kr:25575",
       "minecraftVersion": "1.21.4",
