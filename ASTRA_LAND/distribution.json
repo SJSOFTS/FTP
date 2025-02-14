@@ -1,0 +1,551 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "AstraLand-1.21.4",
+      "name": "AstraLand (Minecraft 1.21.4)",
+      "description": "AstraLand Running Minecraft 1.21.4 (Fabric v0.16.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "astra.sejinjin.kr:25575",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "Astra Land",
+        "largeImageText": "Astra Land 플레이",
+        "largeImageKey": "seal-circle"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "d06ecfb2651a07e600e0a459be63ba76",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/versions/1.21.4-fabric-0.16.10/1.21.4-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.ultimatchamp.bettergrass.loaders:bettergrass:1.4.4+fabric.1.21.4@jar",
+          "name": "BetterGrassify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 153719,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/BetterGrassify-1.4.4+fabric.1.21.4.jar",
+            "MD5": "6ee768b2f3530841217a3445bfa5a47d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettermounthud:1.2.5@jar",
+          "name": "Better Mount HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21037,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/bettermounthud-1.2.5.jar",
+            "MD5": "b10108d8ecea629851725f19798c59ae"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21.4@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1001061,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/continuity-3.0.0+1.21.4.jar",
+            "MD5": "cb5480ac95db653d5376ec1b41797b56"
+          }
+        },
+        {
+          "id": "dev.isxander:controlify:2.0.1+1.21.4-fabric@jar",
+          "name": "Controlify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4233973,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/controlify-2.0.1+1.21.4-fabric.jar",
+            "MD5": "fffb31134e8c355cb38779337f39602e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cubes-without-borders:3.0.0+mc1.21.3@jar",
+          "name": "Cubes Without Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80793,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/cwb-fabric-3.0.0+mc1.21.3.jar",
+            "MD5": "4278e7e73cb1337e3a198f1c5b921887"
+          }
+        },
+        {
+          "id": "generated.fabricmod:debugify:1.21.4+1.1@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 298681,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/Debugify-1.21.4+1.1.jar",
+            "MD5": "ac404e7204331a44f93028298ca372d3"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.7.7@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 182490,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/dynamic-fps-3.7.7+minecraft-1.21.2-fabric.jar",
+            "MD5": "4cb2cd6d89f48e090a024380b865f70b"
+          }
+        },
+        {
+          "id": "link.e4mc:e4mc_minecraft:5.2.1@jar",
+          "name": "E4mc",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568993,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/e4mc_minecraft-fabric-5.2.1.jar",
+            "MD5": "b035f7f6718f0f29b573f2b523bffe2f"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.11.3+1.21.4@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 207442,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/enhancedblockentities-0.11.3+1.21.4.jar",
+            "MD5": "b55aa40f603248f4cb476ee3cd4f8c4d"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 448076,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/entity_model_features_fabric_1.21.4-2.4.1.jar",
+            "MD5": "9cc1a837a6efdb2b6a1a9551ef0ede02"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.10@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 651894,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/entity_texture_features_fabric_1.21.4-6.2.10.jar",
+            "MD5": "9be40af3c19984cc4cffaf5e3fc2b898"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.2@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 67916,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/entityculling-fabric-1.7.2-mc1.21.4.jar",
+            "MD5": "86c2c4e11c8dbd3c49359a0664c25dcb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.115.0+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2106891,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/fabric-api-0.115.0+1.21.4.jar",
+            "MD5": "4909c47b9c6d0f25354248b9942cae94"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.1+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2126372,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/fabric-api-0.116.1+1.21.4.jar",
+            "MD5": "f91b07d6febe3b75b1ddc356bdebae06"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.0+kotlin.2.1.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7089756,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
+            "MD5": "f6623d8c006095c4e08323f084e6c00e"
+          }
+        },
+        {
+          "id": "me.ramidzkh:fabrishot:1.14.3@jar",
+          "name": "Fabrishot",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 53083,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/fabrishot-1.14.3.jar",
+            "MD5": "107f37e9caa751adc69784031054119d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.1.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107026,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/ferritecore-7.1.1-fabric.jar",
+            "MD5": "cddea62080b823c0c55f72408a0c3ffb"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.4.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 641130,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/ForgeConfigAPIPort-v21.4.1-1.21.4-Fabric.jar",
+            "MD5": "4fbb75a4aa1d649263b1e14a8a11c5ea"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.3.4+1.21.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 214227,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/ImmediatelyFast-Fabric-1.3.4+1.21.4.jar",
+            "MD5": "8ba090be67c787796db8aa83df05013c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.5+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2674152,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/iris-fabric-1.8.5+mc1.21.4.jar",
+            "MD5": "3505c797cdec6d794fee054b0b6b3d98"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:4.0.1+1.21.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 998253,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/lambdynamiclights-4.0.1+1.21.4.jar",
+            "MD5": "a5795c2bf24d4c1c6bbc0be088cf1c5b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.2+1.21.4@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 73691,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/language-reload-1.7.2+1.21.4.jar",
+            "MD5": "7afa4a1d8e4a5e349be5edac1e2ff307"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.14.7+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 746249,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/lithium-fabric-0.14.7+mc1.21.4.jar",
+            "MD5": "9e8c4ca8100ebae502ccf90905aa14d5"
+          }
+        },
+        {
+          "id": "dev.isxander.mainmenucredits:isxander-main-menu-credits:1.2.0@jar",
+          "name": "Main Menu Credits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16640,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/main-menu-credits-1.2.0.jar",
+            "MD5": "fa6c077f11eee6b737df0c69f7bf609a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mixintrace:1.1.1+1.17@jar",
+          "name": "MixinTrace",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36039,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/mixintrace-1.1.1+1.17.jar",
+            "MD5": "25673336ece740d8127ae7525bc0cd4f"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21.3-1.10@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66412,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/modelfix-1.21.3-1.10-fabric.jar",
+            "MD5": "8e44b12c5c24a4303f45e73e40c162f2"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.2+mc1.21.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 434120,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/modernfix-fabric-5.20.2+mc1.21.4.jar",
+            "MD5": "2619372996843cf7921436d4a2bd925d"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:13.0.1@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 992893,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/modmenu-13.0.1.jar",
+            "MD5": "6bce151da830ee0334f98095c35305fe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechathistory:1.3.1@jar",
+          "name": "More Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3573,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/morechathistory-1.3.1.jar",
+            "MD5": "cd040faa8025103baf571a3ce15d4a8a"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.2.3@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 341284,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/moreculling-fabric-1.21.4-1.2.3.jar",
+            "MD5": "a3de20318b5255427e15cb0691fae5c6"
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.3.0-beta.7+1.21.2@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 612531,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/optigui-2.3.0-beta.7+1.21.2.jar",
+            "MD5": "42da33c6b9e43f982812eaea0c71d81a"
+          }
+        },
+        {
+          "id": "de.dafuqs:paginatedadvancements:2.6.1+1.21.4@jar",
+          "name": "Paginated Advancements",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81111,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/paginatedadvancements-2.6.1+1.21.4.jar",
+            "MD5": "cfb8295bd91b79c2bbbbe66595f833cb"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:polytone:1.21.4-3.2.7@jar",
+          "name": "Polytone",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 687056,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/polytone-1.21.4-3.2.7-fabric.jar",
+            "MD5": "3a3f225451ed65dd095ddbfa05c4e28d"
+          }
+        },
+        {
+          "id": "net.puzzlemc:puzzle:2.0.4@jar",
+          "name": "Puzzle",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135801,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/puzzle-fabric-2.0.4+1.21.4.jar",
+            "MD5": "0df3167cab94f04bf62011042ce13e37"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "org.redlance.dima_dencep.mods:rrls:5.1.0+mc1.21.4-fabric@jar",
+          "name": "Remove Reloading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185778,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/rrls-5.1.0+mc1.21.4-fabric.jar",
+            "MD5": "1ed8059548a8912bd6d24604603846ee"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.1+mc1.21.4@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360180,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/sodium-extra-fabric-0.6.1+mc1.21.4.jar",
+            "MD5": "4d43b252c771523c6e0a219e9eadd63b"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.6+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1286946,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/sodium-fabric-0.6.6+mc1.21.4.jar",
+            "MD5": "2140408067d0386804aad0e5cb73874a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.4-2.5.26@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6593994,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/voicechat-fabric-1.21.4-2.5.26.jar",
+            "MD5": "735647482d01c55ea3d1d6beca2a8bb9"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.2+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1108641,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/YetAnotherConfigLib-3.6.2+1.21.4-fabric.jar",
+            "MD5": "47bfe9f3ee12f8cfd0a87cfba1daa49d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.2+1.21.3@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 807977,
+            "url": "https://sjsofts.github.io/FTP/ASTRA_LAND/servers/AstraLand-1.21.4/fabricmods/required/Zoomify-2.14.2+1.21.3.jar",
+            "MD5": "3b501d83e685e5cc6c7a2e339145434a"
+          }
+        }
+      ]
+    }
+  ]
+}

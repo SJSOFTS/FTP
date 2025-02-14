@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Project/astralandnebula/root/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "AstraLand (Minecraft 1.21.4)",
+    "description": "AstraLand Running Minecraft 1.21.4 (Fabric v0.16.10)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "astra.sejinjin.kr:25575",
+    "discord": {
+      "shortId": "Astra Land",
+      "largeImageText": "Astra Land 플레이",
+      "largeImageKey": "seal-circle"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.10"
+  },
+  "untrackedFiles": []
+}
